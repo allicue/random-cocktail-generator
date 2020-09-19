@@ -78,9 +78,10 @@ dateModified: "2017-04-23 20:43:39"
 
 #### MVP 
 
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
+- Access an external api 
+- Render random data on page every time a event listener is activated
+- Structure information within flexbox
+- Infuse at least one animation
 
 #### PostMVP  
 
@@ -113,9 +114,16 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Build out HTML Foundation | M | 1 hrs| TBD | TBD |
+| Access API & Link It Within JS | H | 1 hrs| TBD | TBD |
+| Pull Data From API and Append to HTML w/ DOM | H | 5 hrs| TBD | TBD |
+| Add Event Listener for Button | M | 1 hrs| TBD | TBD |
+| Remove Existing Data and Replace with New Data once Requested through Button | M | 2 hrs| TBD | TBD |
+| Structure Data/Webpage with Flexbox | H | 3 hrs| TBD | TBD |
+| Create Breakpoint for Mobile Version | H | 4 hrs| TBD | TBD |
+| Build In Animation | L | 2 hrs| TBD | TBD |
+| Build Out Remaining Styling in CSS | L | 6 hrs| TBD | TBD |
+| Total | H | 25hrs| TBD | TBD |
 
 ## Code Snippet
 
