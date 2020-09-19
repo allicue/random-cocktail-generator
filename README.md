@@ -89,10 +89,6 @@ dateModified: "2017-04-23 20:43:39"
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
-
 |  Day | Deliverable | Status
 |---|---| ---|
 |Sept 18-21| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
@@ -108,22 +104,18 @@ Include a full list of features that have been prioritized based on the `Time an
 
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
-
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Build out HTML Foundation | M | 1 hrs| TBD | TBD |
-| Access API & Link It Within JS | H | 1 hrs| TBD | TBD |
+| Build out HTML Foundation | M | 1 hr| TBD | TBD |
+| Access API & Link It Within JS | H | 1.5 hrs| TBD | TBD |
 | Pull Data From API and Append to HTML w/ DOM | H | 5 hrs| TBD | TBD |
-| Add Event Listener for Button | M | 1 hrs| TBD | TBD |
-| Remove Existing Data and Replace with New Data once Requested through Button | M | 2 hrs| TBD | TBD |
-| Structure Data/Webpage with Flexbox | H | 3 hrs| TBD | TBD |
+| Add Event Listener for Button | M | 1.5 hrs| TBD | TBD |
+| Remove Existing Data and Replace with New Data once Requested through Button | M | 2.5 hrs| TBD | TBD |
+| Structure Data/Webpage with Flexbox | H | 3.5 hrs| TBD | TBD |
 | Create Breakpoint for Mobile Version | H | 4 hrs| TBD | TBD |
 | Build In Animation | L | 2 hrs| TBD | TBD |
 | Build Out Remaining Styling in CSS | L | 6 hrs| TBD | TBD |
-| Total | H | 25hrs| TBD | TBD |
+| Total | H | 27 hrs| TBD | TBD |
 
 ## Code Snippet
 
