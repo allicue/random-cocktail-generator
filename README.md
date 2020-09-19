@@ -92,9 +92,9 @@ dateModified: "2017-04-23 20:43:39"
 |  Day | Deliverable | Status
 |---|---| ---|
 |Sept 18-21| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|Sept 21| Project Approval | Incomplete
-|Sept 22| Core Application Structure (HTML, CSS, JS) | Incomplete
-|Sept 23| MVP | Incomplete
+|Sept 21| Project Approval/Begin Core Application Structure | Incomplete
+|Sept 22| Complete Core Application Structure (HTML, CSS, JS) | Incomplete
+|Sept 23| Complete MVP | Incomplete
 |Sept 24| Styling | Incomplete
 |Sept 25| Presentations | Incomplete
 
