@@ -1,6 +1,4 @@
-# random-cocktail-generator
-
-## Random Cocktail Generator
+# Random Cocktail Generator
 
 ## Project Description
 
