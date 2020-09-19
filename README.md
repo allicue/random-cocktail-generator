@@ -7,6 +7,7 @@ With people not being able to go out to their favorite restaurants/bars for cust
 ## API and Data Sample
 
 API Link: https://www.thecocktaildb.com/api.php
+
 API Snippet:
 ```
 {
