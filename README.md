@@ -93,9 +93,9 @@ dateModified: "2017-04-23 20:43:39"
 |---|---| ---|
 |Sept 18-21| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
 |Sept 21| Project Approval | Incomplete
-|Sept 22| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Sept 22| Core Application Structure (HTML, CSS, JS) | Incomplete
 |Sept 23| MVP | Incomplete
-|Sept 24| Post MVP/Styling | Incomplete
+|Sept 24| Styling | Incomplete
 |Sept 25| Presentations | Incomplete
 
 ## Priority Matrix
@@ -106,16 +106,19 @@ dateModified: "2017-04-23 20:43:39"
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Build out HTML Foundation | M | 1 hr| TBD | TBD |
-| Access API & Link It Within JS | H | 1.5 hrs| TBD | TBD |
-| Pull Data From API and Append to HTML w/ DOM | H | 5 hrs| TBD | TBD |
+| Build out HTML Foundation | M | 2 hrs| TBD | TBD |
+| Access API & Link It Within JS | H | 2 hrs| TBD | TBD |
+| Pull Data From API and Append to HTML w/ DOM | H | 3.5 hrs| TBD | TBD |
 | Add Event Listener for Button | M | 1.5 hrs| TBD | TBD |
 | Remove Existing Data and Replace with New Data once Requested through Button | M | 2.5 hrs| TBD | TBD |
+| Debugging API Data | M | 3 hrs| TBD | TBD |
 | Structure Data/Webpage with Flexbox | H | 3.5 hrs| TBD | TBD |
-| Create Breakpoint for Mobile Version | H | 4 hrs| TBD | TBD |
+| Build Out Basic CSS Structure | L | 3 hrs| TBD | TBD |
+| Create Breakpoint for Mobile Version | H | 3 hrs| TBD | TBD |
+| Debugging Breakpoint| H | 3 hrs| TBD | TBD |
 | Build In Animation | L | 2 hrs| TBD | TBD |
-| Build Out Remaining Styling in CSS | L | 6 hrs| TBD | TBD |
-| Total | H | 27 hrs| TBD | TBD |
+| Build Out Advanced Styling in CSS | L | 3 hrs| TBD | TBD |
+| Total | H | 32 hrs| TBD | TBD |
 
 ## Code Snippet
 
