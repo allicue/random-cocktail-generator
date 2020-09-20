@@ -2,7 +2,7 @@
 
 ## Project Description
 
-With people not being able to go out to their favorite restaurants/bars for custom cocktails, this application is meant to inspire users with new cocktail recipes that they normally wouldn't make at home. With a click of a button, random cocktail recipes will be generated with ingridients and instructions needed to mix a cocktail at home!
+This application is meant to inspire users with new cocktail recipes that they normally wouldn't make at home- especially those tired of drinking the same beer or wine during virtual happy hours. With a click of a button, random cocktail recipes will be generated with ingredients and instructions needed to mix a handcrafted cocktail in the comfort of home.
 
 ## API and Data Sample
 
@@ -91,7 +91,7 @@ dateModified: "2017-04-23 20:43:39"
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Sept 18-21| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|Sept 18-21| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |Sept 21| Project Approval/Begin Core Application Structure | Incomplete
 |Sept 22| Complete Core Application Structure (HTML, CSS, JS) | Incomplete
 |Sept 23| Complete MVP | Incomplete
