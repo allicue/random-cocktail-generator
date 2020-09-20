@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This application is meant to inspire users with new cocktail recipes that they normally wouldn't make at home- especially those tired of drinking the same beer or wine during virtual happy hours. With a click of a button, random cocktail recipes will be generated with ingredients and instructions needed to mix a handcrafted cocktail in the comfort of home.
+This application is meant to inspire users with new cocktail recipes that they normally wouldn't make at home- especially those tired of drinking the same beer or wine during virtual happy hours. With a click of a button, random cocktail recipes will be generated with ingredients and instructions needed to mix a handcrafted cocktail in the comfort of the user's home.
 
 ## API and Data Sample
 
