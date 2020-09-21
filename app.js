@@ -1,6 +1,7 @@
 
 
 async function getDrinkInfo() {
+  
   replaceDrinkRecipe()
 
   try {
@@ -9,23 +10,25 @@ async function getDrinkInfo() {
     const recipe = response.data
     console.log(recipe)
 
-    let div = document.querySelector("#drink-recipes")
-
+    let mainDiv = document.querySelector("#main-container")
+    let subDiv = document.querySelector("#sub-div")
+    mainDiv.append(subDiv)
 
     if (recipe.drinks[0].strAlcoholic === "Alcoholic") {
 
       const listedTitle = document.createElement('p')
       let drinkTitle = recipe.drinks[0].strDrink
       listedTitle.textContent = `Drink: ${drinkTitle}`
-      div.append(listedTitle)
+      subDiv.append(listedTitle)
 
       const img = document.createElement('img')
       img.src = recipe.drinks[0].strDrinkThumb
-      div.append(img)
+      img.classList.add("drink-thumbnail")
+      subDiv.append(img)
 
       const ingredientsTitle = document.createElement('p')
       ingredientsTitle.textContent = `Ingredients:`
-      div.append(ingredientsTitle)
+      subDiv.append(ingredientsTitle)
 
       const ingredientsLIFirst = document.createElement('li')
       let ingredientsFirst = recipe.drinks[0].strIngredient1
@@ -148,7 +151,8 @@ async function getDrinkInfo() {
       const instructionsSection = document.createElement('p')
       let instructions = recipe.drinks[0].strInstructions
       instructionsSection.textContent = `Instructions: ${instructions}`
-      div.append(instructionsSection)
+      subDiv.append(instructionsSection)
+      instructions.classList.add("instructions-section")
       
     }
   }
@@ -165,7 +169,7 @@ getDrinkInfo()
   button.addEventListener("click", getDrinkInfo)
 
 function replaceDrinkRecipe() {
-  const removeDiv = document.querySelector("#drink-recipes")
+  const removeDiv = document.querySelector("#sub-div")
   while (removeDiv.lastChild) {
     removeDiv.removeChild(removeDiv.lastChild)
   }
