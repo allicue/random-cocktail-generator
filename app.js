@@ -162,6 +162,8 @@ async function getDrinkInfo() {
       subDiv2.append(instructionsSection)
       instructionsSection.classList.add("instructions-section")
       
+    } else {
+      return getDrinkInfo()
     }
   }
   catch(error) {
