@@ -112,11 +112,11 @@ dateModified: "2017-04-23 20:43:39"
 | Add Event Listener for Button | M | 1.5 hrs| 30 mins | TBD |
 | Remove Existing Data and Replace with New Data once Requested through Button | M | 10 mins | TBD | TBD |
 | Debugging API Data | M | 3 hrs| 1 hr | TBD |
-| Structure Data/Webpage with Flexbox | H | 3.5 hrs| TBD | TBD |
-| Build Out Basic CSS Structure | L | 3 hrs| TBD | TBD |
-| Create Breakpoint for Mobile Version | H | 3 hrs| TBD | TBD |
+| Structure Data/Webpage with Flexbox | H | 3.5 hrs| 3 hrs | 3 hrs |
+| Build Out Basic CSS Structure | L | 3 hrs| 2hrs | 2hrs |
+| Create Breakpoint for Mobile Version | H | 3 hrs| 30 mins | TBD |
 | Debugging Breakpoint| H | 3 hrs| TBD | TBD |
-| Build In Animation | L | 2 hrs| TBD | TBD |
+| Build In Animation | L | 2 hrs| 1 hr | TBD |
 | Build Out Advanced Styling in CSS | L | 3 hrs| TBD | TBD |
 | Total | H | 32 hrs| TBD | TBD |
 
