@@ -2,6 +2,7 @@ body {
   margin-bottom: 50px;
   text-align: center;
   background-color: #ffebee;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -11,6 +12,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Sriracha', cursive;
 }
 
 h1 {
@@ -19,6 +21,29 @@ h1 {
   background-color: rgb(139,69,19,0.5)
   ;
   padding: 50px;
+}
+
+h3 {
+  color: rgb(13, 61, 61);
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 20px
+}
+
+button {
+  background-color: rgb(13, 61, 61);
+  color: whitesmoke;
+  border: 5px solid whitesmoke;
+  border-style: outset;
+  padding: 15px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-family: 'Sriracha', cursive;
+}
+
+button:hover {
+  text-decoration: underline;
 }
 
 #main-container {
@@ -30,11 +55,20 @@ h1 {
   justify-content: center;
 }
 
-#sub-div{
-  width: 50%;
-  border: 5px solid whitesmoke;
+#sub-div1{
+  width: 30%;
+  color: whitesmoke;
   padding: 10px;
   background-color: #E57900;
+  line-height: 30px;
+}
+
+#sub-div2{
+  width: 30%;
+  color: whitesmoke;
+  padding: 10px;
+  background-color: #E57900;
+  line-height: 30px;
 }
 
 .drink-thumbnail {
@@ -42,7 +76,26 @@ h1 {
   border-radius: 50%;
   order: -2;
   border: 3px solid whitesmoke;
+  margin-top: 20px;
 } 
+
+.drink-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: left;
+}
+
+.ingredients-title {
+  text-align: left;
+}
+
+li {
+  text-align: left;
+}
+
+.instructions-section {
+  text-align: left;
+}
 
 footer {
   background-color: rgb(13, 61, 61);
@@ -56,10 +109,14 @@ footer {
 } 
 
 #linkedin {
-  width: 50px;
+  width: 80px;
   padding: 20px;
 }
 
 #github {
   width: 65px;
+}
+
+* {
+  box-sizing: border-box;
 }

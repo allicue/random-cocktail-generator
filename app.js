@@ -2,7 +2,8 @@
 
 async function getDrinkInfo() {
   
-  replaceDrinkRecipe()
+  replaceDrinkImg()
+  replaceDrinkInfo()
 
   try {
     const url = "https://www.thecocktaildb.com/api/json/v1/1/random.php"
@@ -11,24 +12,31 @@ async function getDrinkInfo() {
     console.log(recipe)
 
     let mainDiv = document.querySelector("#main-container")
-    let subDiv = document.querySelector("#sub-div")
-    mainDiv.append(subDiv)
+    let subDiv1 = document.querySelector("#sub-div1")
+    let subDiv2 = document.querySelector("#sub-div2")
+
+    mainDiv.append(subDiv1)
+    mainDiv.append(subDiv2)
+
+
 
     if (recipe.drinks[0].strAlcoholic === "Alcoholic") {
 
       const listedTitle = document.createElement('p')
       let drinkTitle = recipe.drinks[0].strDrink
+      listedTitle.classList.add("drink-title")
       listedTitle.textContent = `Drink: ${drinkTitle}`
-      subDiv.append(listedTitle)
+      subDiv2.append(listedTitle)
 
       const img = document.createElement('img')
       img.src = recipe.drinks[0].strDrinkThumb
       img.classList.add("drink-thumbnail")
-      subDiv.append(img)
+      subDiv1.append(img)
 
       const ingredientsTitle = document.createElement('p')
       ingredientsTitle.textContent = `Ingredients:`
-      subDiv.append(ingredientsTitle)
+      ingredientsTitle.classList.add("ingredients-title")
+      subDiv2.append(ingredientsTitle)
 
       const ingredientsLIFirst = document.createElement('li')
       let ingredientsFirst = recipe.drinks[0].strIngredient1
@@ -151,8 +159,8 @@ async function getDrinkInfo() {
       const instructionsSection = document.createElement('p')
       let instructions = recipe.drinks[0].strInstructions
       instructionsSection.textContent = `Instructions: ${instructions}`
-      subDiv.append(instructionsSection)
-      instructions.classList.add("instructions-section")
+      subDiv2.append(instructionsSection)
+      instructionsSection.classList.add("instructions-section")
       
     }
   }
@@ -168,9 +176,17 @@ getDrinkInfo()
   const button = document.querySelector("#button")
   button.addEventListener("click", getDrinkInfo)
 
-function replaceDrinkRecipe() {
-  const removeDiv = document.querySelector("#sub-div")
-  while (removeDiv.lastChild) {
-    removeDiv.removeChild(removeDiv.lastChild)
+function replaceDrinkImg() {
+  const removeDiv1 = document.querySelector("#sub-div1")
+  while (removeDiv1.lastChild) {
+    removeDiv1.removeChild(removeDiv1.lastChild)
   }
 }
+
+function replaceDrinkInfo() {
+  const removeDiv2 = document.querySelector("#sub-div2")
+  while (removeDiv2.lastChild) {
+    removeDiv2.removeChild(removeDiv2.lastChild)
+  }
+}
+
