@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-image: url(./photos/Zoom-BG-1-01.jpg);
+  background-image: url(./photos/background\ photo.jpg);
   /* image sourced from: https://vinepair.com/articles/best-zoom-backgrounds-free/ */
   background-size: cover;
   height: 650px;
@@ -47,14 +47,24 @@ h3 {
   font-size: 27px;
 }
 
+#drink-form {
+  padding: 10px;
+  font-size: 22px;
+  border: 1px solid rgb(13, 61, 61);
+  float: center;
+  width: 40%;
+  background:whitesmoke;
+}
+
 button {
   background-color: rgb(13, 61, 61);
+  width: 10%;
   color: whitesmoke;
-  border: 5px solid whitesmoke;
-  border-style: outset;
-  padding: 15px;
+  border: 1px solid whitesmoke;
+  padding: 10px;
+  float: center;
   margin-bottom: 30px;
-  font-size: 18px;
+  font-size: 17px;
   font-family: 'Sriracha', cursive;
 }
 
@@ -66,6 +76,7 @@ button:hover {
 #main-container {
   margin-top: 35px;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   align-content: flex-start;
   height: 250px;
@@ -74,16 +85,16 @@ button:hover {
   margin: 0 auto;
 }
 
-#sub-div1{
-  width: 30%;
+#main-list{
+  width: 80%;
   color: whitesmoke;
   padding: 10px;
   background-color: #E57900;
   line-height: 30px;
-  border-right: 1px dashed white;
+  border: 2px solid whitesmoke;
 }
 
-#sub-div2{
+/* #sub-div2{
   width: 30%;
   color: whitesmoke;
   padding: 10px;
@@ -92,7 +103,7 @@ button:hover {
   line-height: 30px;
   flex-grow: 2;
   font-size: large;
-}
+} */
 
 .drink-thumbnail {
   width: 200px;
@@ -104,7 +115,7 @@ button:hover {
 
 .drink-title {
   text-transform: uppercase;
-  text-align: left;
+  text-align: center;
 }
 
 .ingredients-title {
@@ -118,7 +129,7 @@ li {
 .instructions-section {
   text-align: left;
 }
-
+/* 
 footer {
   background-color: rgb(13, 61, 61);
   padding: 15px 0px 15px 0px;
@@ -128,16 +139,16 @@ footer {
   justify-content: center;
   align-items: center;
   margin-top: 500px;
-} 
+}  */
 
-#linkedin {
+/* #linkedin {
   width: 80px;
   padding: 20px;
 }
 
 #github {
   width: 55px;
-}
+} */
 
 
 * {

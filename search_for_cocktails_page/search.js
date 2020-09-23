@@ -36,6 +36,7 @@ function appendDrink(drinks) {
   drinks.forEach(drink => {
     const title = document.createElement('p')
     title.innerHTML = drink.strDrink
+    title.classList.add("drink-title")
     mainList.append(title)
 
     const img = document.createElement('img')
