@@ -110,22 +110,28 @@ dateModified: "2017-04-23 20:43:39"
 | Access API & Link It Within JS | H | 2 hrs| 20 mins | TBD |
 | Pull Data From API and Append to HTML w/ DOM | H | 3.5 hrs| 1 hr | TBD |
 | Add Event Listener for Button | M | 1.5 hrs| 30 mins | TBD |
-| Remove Existing Data and Replace with New Data once Requested through Button | M | 10 mins | TBD | TBD |
-| Debugging API Data | M | 3 hrs| 1 hr | TBD |
-| Structure Data/Webpage with Flexbox | H | 3.5 hrs| 3 hrs | 3 hrs |
+| Remove Existing Data and Replace with New Data once Requested through Button | M | 10 mins | 30 mins | TBD |
+| Debugging API Data | M | 3 hrs| 1.5 hr | TBD |
+| Structure Data/Webpage with Flexbox | H | 3.5 hrs| 3.5 hrs | 3 hrs |
 | Build Out Basic CSS Structure | L | 3 hrs| 2hrs | 2hrs |
-| Create Breakpoint for Mobile Version | H | 3 hrs| 30 mins | TBD |
-| Debugging Breakpoint| H | 3 hrs| TBD | TBD |
+| Create Breakpoint for Tablet & Mobile | H | 3 hrs| 40 mins | TBD |
+| Debugging Breakpoint| H | 3 hrs| 1 hr | TBD |
 | Build In Animation | L | 2 hrs| 1 hr | TBD |
-| Build Out Advanced Styling in CSS | L | 3 hrs| TBD | TBD |
+| Build Out Advanced Styling in CSS | L | 3 hrs| 2 hrs | TBD |
 | Total | H | 32 hrs| TBD | TBD |
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
+I'm proud of the conditional statement that I wrapped around the execution of the function because this was the first time I didn't need to find a similar solution from a past lesson or online to resolve my problem.
 
 ```
-WILL INCLUDE ONCE PROJECT IS COMPLETED
+if (recipe.drinks[0].strAlcoholic === "Alcoholic") {
+
+      ...
+
+      } else {
+      return getDrinkInfo()
+    }
 ```
 
 ## Change Log

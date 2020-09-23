@@ -191,4 +191,3 @@ function replaceDrinkInfo() {
     removeDiv2.removeChild(removeDiv2.lastChild)
   }
 }
-
