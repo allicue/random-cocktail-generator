@@ -59,11 +59,11 @@ h3 {
 
 button {
   background-color: rgb(13, 61, 61);
-  width: 10%;
+  width: 15%;
   color: whitesmoke;
-  border: 1px solid whitesmoke;
+  border: 2px solid whitesmoke;
+  border-radius: 10%;
   padding: 10px;
-  float: center;
   margin-bottom: 30px;
   font-size: 17px;
   font-family: 'Sriracha', cursive;
@@ -96,17 +96,6 @@ button:hover {
   font-size: larger;
 }
 
-/* #sub-div2{
-  width: 30%;
-  color: whitesmoke;
-  padding: 10px;
-  padding-left: 25px;
-  background-color: #E57900;
-  line-height: 30px;
-  flex-grow: 2;
-  font-size: large;
-} */
-
 .drink-thumbnail {
   width: 200px;
   border-radius: 50%;
@@ -118,6 +107,7 @@ button:hover {
 .drink-title {
   text-transform: uppercase;
   text-align: center;
+  font-weight: 500;
 }
 
 .ingredients-title {
@@ -130,28 +120,9 @@ li {
 
 .instructions-section {
   text-align: left;
+  padding-bottom: 18px;
+  border-bottom: 1px dashed whitesmoke;
 }
-/* 
-footer {
-  background-color: rgb(13, 61, 61);
-  padding: 15px 0px 15px 0px;
-  height: 75px; 
-  width:100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 500px;
-}  */
-
-/* #linkedin {
-  width: 80px;
-  padding: 20px;
-}
-
-#github {
-  width: 55px;
-} */
-
 
 * {
   box-sizing: border-box;
@@ -198,10 +169,6 @@ footer {
       line-height: 30px;
       flex-grow: 2;
       font-size: larger;
-    }
-
-    .drink-title{
-      text-align: left;
     }
 
     .drink-thumbnail {

@@ -25,17 +25,11 @@ let mainDiv = document.querySelector("#main-container")
 let mainList = document.querySelector("#main-list")
 mainDiv.append(mainList)
 
-// let subDiv1 = document.querySelector("#sub-div1")
-// let subDiv2 = document.querySelector("#sub-div2")
-
-// mainDiv.append(subDiv1)
-// mainDiv.append(subDiv2)
-
 
 function appendDrink(drinks) {
   drinks.forEach(drink => {
     const title = document.createElement('p')
-    title.innerHTML = drink.strDrink
+    title.textContent = `Drink: ${drink.strDrink}`
     title.classList.add("drink-title")
     mainList.append(title)
 

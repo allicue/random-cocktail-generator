@@ -106,18 +106,18 @@ dateModified: "2017-04-23 20:43:39"
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Build out HTML Foundation | M | 2 hrs| 10 mins | TBD |
-| Access API & Link It Within JS | H | 2 hrs| 20 mins | TBD |
-| Pull Data From API and Append to HTML w/ DOM | H | 3.5 hrs| 1 hr | TBD |
-| Add Event Listener for Button | M | 1.5 hrs| 30 mins | TBD |
-| Remove Existing Data and Replace with New Data once Requested through Button | M | 10 mins | 30 mins | TBD |
-| Debugging API Data | M | 3 hrs| 1.5 hr | TBD |
-| Structure Data/Webpage with Flexbox | H | 3.5 hrs| 3.5 hrs | 3 hrs |
-| Build Out Basic CSS Structure | L | 3 hrs| 2hrs | 2hrs |
-| Create Breakpoint for Tablet & Mobile | H | 3 hrs| 40 mins | TBD |
-| Debugging Breakpoint| H | 3 hrs| 1 hr | TBD |
-| Build In Animation | L | 2 hrs| 1 hr | TBD |
-| Build Out Advanced Styling in CSS | L | 3 hrs| 2 hrs | TBD |
+| Build out HTML Foundation | M | 2 hrs| 10 mins | 10 mins |
+| Access API & Link It Within JS | H | 2 hrs| 30 mins | 30 mins |
+| Pull Data From API and Append to HTML w/ DOM | H | 3.5 hrs| 1 hr | 1 hr |
+| Add Event Listener for Button | M | 1.5 hrs| 30 mins | 30 mins |
+| Remove Existing Data and Replace with New Data once Requested through Button | M | 10 mins | 30 mins | 30 mins |
+| Debugging API Data | M | 3 hrs| 1.5 hrs | 1.5 hrs |
+| Structure Data/Webpage with Flexbox | H | 3.5 hrs| 3.5 hrs | 3.5 hrs |
+| Build Out Basic CSS Structure | L | 3 hrs| 2 hrs | 2 hrs |
+| Create Breakpoint for Tablet & Mobile | H | 3 hrs| 30 mins | 30 mins |
+| Debugging Breakpoint| H | 3 hrs| 1 hr | 1 hr |
+| Build In Animation | L | 2 hrs| 1 hr | 1 hr |
+| Build Out Advanced Styling in CSS | L | 3 hrs| 3 hrs | 3 hrs |
 | Total | H | 32 hrs| TBD | TBD |
 
 ## Code Snippet
@@ -135,4 +135,5 @@ if (recipe.drinks[0].strAlcoholic === "Alcoholic") {
 ```
 
 ## Change Log
-WILL INCLUDE ONCE PROJECT IS COMPLETED
+
+My only change from the original wireframe was the addition of the footer to link to my post MVP data.
