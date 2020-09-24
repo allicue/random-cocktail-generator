@@ -170,12 +170,6 @@ function appendDrink(drinks) {
   });
 }
 
-
-
-
-
-
-
 const form = document.querySelector("form")
 form.addEventListener('submit', (e) => {
   e.preventDefault()
@@ -183,8 +177,6 @@ form.addEventListener('submit', (e) => {
   document.querySelector("#drink-form").value = ""
   getDrinkInfo(inputValue)
 })
-
-
 
 function replaceDrink() {
   const removeDiv = document.querySelector("#main-list")

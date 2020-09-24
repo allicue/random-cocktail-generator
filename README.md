@@ -92,10 +92,10 @@ dateModified: "2017-04-23 20:43:39"
 |  Day | Deliverable | Status
 |---|---| ---|
 |Sept 18-21| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
-|Sept 21| Project Approval/Begin Core Application Structure | Incomplete
-|Sept 22| Complete Core Application Structure (HTML, CSS, JS) | Incomplete
-|Sept 23| Complete MVP | Incomplete
-|Sept 24| Styling | Incomplete
+|Sept 21| Project Approval/Begin Core Application Structure | Complete
+|Sept 22| Complete Core Application Structure (HTML, CSS, JS) | Complete
+|Sept 23| Complete MVP | Complete
+|Sept 24| Styling | Complete
 |Sept 25| Presentations | Incomplete
 
 ## Priority Matrix
@@ -106,7 +106,7 @@ dateModified: "2017-04-23 20:43:39"
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Build out HTML Foundation | M | 2 hrs| 10 mins | 10 mins |
+| Build out HTML Foundation | M | 2 hrs| 30 mins | 10 mins |
 | Access API & Link It Within JS | H | 2 hrs| 30 mins | 30 mins |
 | Pull Data From API and Append to HTML w/ DOM | H | 3.5 hrs| 1 hr | 1 hr |
 | Add Event Listener for Button | M | 1.5 hrs| 30 mins | 30 mins |
@@ -118,7 +118,8 @@ dateModified: "2017-04-23 20:43:39"
 | Debugging Breakpoint| H | 3 hrs| 1 hr | 1 hr |
 | Build In Animation | L | 2 hrs| 1 hr | 1 hr |
 | Build Out Advanced Styling in CSS | L | 3 hrs| 3 hrs | 3 hrs |
-| Total | H | 32 hrs| TBD | TBD |
+| Post MVP | L | NA | 5 hrs | 5 hrs |
+| Total | H | 32 hrs| 20.5 hrs | 20.5 hrs |
 
 ## Code Snippet
 

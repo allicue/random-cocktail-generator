@@ -1,7 +1,7 @@
 
 
 async function getDrinkInfo() {
-  
+
   replaceDrinkImg()
   replaceDrinkInfo()
 
@@ -9,7 +9,7 @@ async function getDrinkInfo() {
     const url = "https://www.thecocktaildb.com/api/json/v1/1/random.php"
     const response = await axios.get(url);
     const recipe = response.data
-    console.log(recipe)
+    // console.log(recipe)
 
     let mainDiv = document.querySelector("#main-container")
     let subDiv1 = document.querySelector("#sub-div1")
@@ -17,8 +17,6 @@ async function getDrinkInfo() {
 
     mainDiv.append(subDiv1)
     mainDiv.append(subDiv2)
-
-
 
     if (recipe.drinks[0].strAlcoholic === "Alcoholic") {
 
@@ -99,7 +97,7 @@ async function getDrinkInfo() {
         ingredientsLIEighth.textContent = `${ingredientsEighth}: ${measurementsEighth}`
         ingredientsTitle.append(ingredientsLIEighth)
       }
-    
+
       if (recipe.drinks[0].strIngredient9 !== null) {
         const ingredientsLINinth = document.createElement('li')
         let ingredientsNinth = recipe.drinks[0].strIngredient9
@@ -115,7 +113,7 @@ async function getDrinkInfo() {
         ingredientsLITenth.textContent = `${ingredientsTenth}: ${measurementsTenth}`
         ingredientsTitle.append(ingredientsLITenth)
       }
-    
+
       if (recipe.drinks[0].strIngredient11 !== null) {
         const ingredientsLIEleventh = document.createElement('li')
         let ingredientsEleventh = recipe.drinks[0].strIngredient11
@@ -161,22 +159,22 @@ async function getDrinkInfo() {
       instructionsSection.textContent = `Instructions: ${instructions}`
       subDiv2.append(instructionsSection)
       instructionsSection.classList.add("instructions-section")
-      
+
     } else {
       return getDrinkInfo()
     }
   }
-  catch(error) {
-    console.log(`Error: ${error}`)
+  catch (error) {
+    // console.log(`Error: ${error}`)
   }
   finally {
-    console.log("Request fufilled.")
+    // console.log("Request fufilled.")
   }
 }
 getDrinkInfo()
 
-  const button = document.querySelector("#button")
-  button.addEventListener("click", getDrinkInfo)
+const button = document.querySelector("#button")
+button.addEventListener("click", getDrinkInfo)
 
 function replaceDrinkImg() {
   const removeDiv1 = document.querySelector("#sub-div1")
