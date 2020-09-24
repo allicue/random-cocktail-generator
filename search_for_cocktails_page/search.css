@@ -14,12 +14,13 @@ header {
   justify-content: center;
   align-items: center;
   font-family: 'Sriracha', cursive;
+  border-bottom: 10px solid #E57900;
 }
 
 h1 {
   text-transform: uppercase;
   color: whitesmoke;
-  background-color: rgba(43, 53, 71, 0.5);
+  background-color: rgba(59, 37, 11, 0.5);
   padding: 50px;
   animation-duration: 3s;
   animation-name: drop-in;
@@ -92,6 +93,7 @@ button:hover {
   background-color: #E57900;
   line-height: 30px;
   border: 2px solid whitesmoke;
+  font-size: larger;
 }
 
 /* #sub-div2{

@@ -125,10 +125,15 @@ footer {
   height: 75px; 
   width:100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   margin-top: 500px;
 } 
+.footer-text{
+  color: whitesmoke;
+  text-align: left;
+}
+
 
 #linkedin {
   width: 80px;
