@@ -173,6 +173,7 @@ async function getDrinkInfo() {
 }
 getDrinkInfo()
 
+
 const button = document.querySelector("#button")
 button.addEventListener("click", getDrinkInfo)
 

@@ -106,20 +106,20 @@ dateModified: "2017-04-23 20:43:39"
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Build out HTML Foundation | M | 2 hrs| 30 mins | 10 mins |
+| Build out HTML Foundation | M | 2 hrs| 30 mins | 30 mins |
 | Access API & Link It Within JS | H | 2 hrs| 30 mins | 30 mins |
-| Pull Data From API and Append to HTML w/ DOM | H | 3.5 hrs| 1 hr | 1 hr |
+| Pull Data From API and Append to HTML w/ DOM | H | 3.5 hrs| 1.5 hrs | 1.5 hrs |
 | Add Event Listener for Button | M | 1.5 hrs| 30 mins | 30 mins |
 | Remove Existing Data and Replace with New Data once Requested through Button | M | 10 mins | 30 mins | 30 mins |
-| Debugging API Data | M | 3 hrs| 1.5 hrs | 1.5 hrs |
+| Debugging API Data | M | 3 hrs| 2 hrs | 2 hrs |
 | Structure Data/Webpage with Flexbox | H | 3.5 hrs| 3.5 hrs | 3.5 hrs |
 | Build Out Basic CSS Structure | L | 3 hrs| 2 hrs | 2 hrs |
 | Create Breakpoint for Tablet & Mobile | H | 3 hrs| 30 mins | 30 mins |
-| Debugging Breakpoint| H | 3 hrs| 1 hr | 1 hr |
+| Debugging Breakpoint| H | 3 hrs| 1.5 hr | 1.5 hr |
 | Build In Animation | L | 2 hrs| 1 hr | 1 hr |
 | Build Out Advanced Styling in CSS | L | 3 hrs| 3 hrs | 3 hrs |
-| Post MVP | L | NA | 5 hrs | 5 hrs |
-| Total | H | 32 hrs| 20.5 hrs | 20.5 hrs |
+| Post MVP | L | NA | 6 hrs | 6 hrs |
+| Total | H | 32 hrs| 23 hrs | 23 hrs |
 
 ## Code Snippet
 
