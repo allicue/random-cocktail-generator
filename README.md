@@ -110,7 +110,7 @@ dateModified: "2017-04-23 20:43:39"
 | Access API & Link It Within JS | H | 2 hrs| 30 mins | 30 mins |
 | Pull Data From API and Append to HTML w/ DOM | H | 3.5 hrs| 1.5 hrs | 1.5 hrs |
 | Add Event Listener for Button | M | 1.5 hrs| 30 mins | 30 mins |
-| Remove Existing Data and Replace with New Data once Requested through Button | M | 10 mins | 30 mins | 30 mins |
+| Remove Existing Data and Replace with New Data once Requested through Button | M | 30 mins | 30 mins | 30 mins |
 | Debugging API Data | M | 3 hrs| 2 hrs | 2 hrs |
 | Structure Data/Webpage with Flexbox | H | 3.5 hrs| 3.5 hrs | 3.5 hrs |
 | Build Out Basic CSS Structure | L | 3 hrs| 2 hrs | 2 hrs |

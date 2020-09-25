@@ -25,8 +25,7 @@ h1 {
   animation-name: drop-in;
 }
 
-@keyframes drop-in {
-  /* header drops in to place */
+@keyframes drop-in { /* header drops in to place */
   from {
     margin-bottom: 100%;
     width: auto; 

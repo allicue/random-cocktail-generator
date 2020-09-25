@@ -9,7 +9,6 @@ async function getDrinkInfo() {
     const url = "https://www.thecocktaildb.com/api/json/v1/1/random.php"
     const response = await axios.get(url);
     const recipe = response.data
-    // console.log(recipe)
 
     let mainDiv = document.querySelector("#main-container")
     let subDiv1 = document.querySelector("#sub-div1")
