@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-image: url(./photos/background\ photo.jpg);
+  background-image: url(./search_photos/background\ photo.jpg);
   /* image sourced from: https://vinepair.com/articles/best-zoom-backgrounds-free/ */
   background-size: cover;
   height: 650px;
@@ -182,6 +182,10 @@ li {
     width: 100%;
     text-align: center;
     font-size: large;
+  }
+
+  button {
+    width: fit-content;
   }
 
   #main-container {
